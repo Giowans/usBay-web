@@ -1,0 +1,50 @@
+.main-container {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    background-color: #7CC3EA;
+    overflow-y: hidden;
+    z-index: 2;
+}
+.login-container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 40vw;
+    min-height: 50vh;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 3;
+    position: absolute;
+    top: 30vh;
+    left: 30vw;
+    border-radius: 25px;
+    border-width: 2px;
+    border-color: #7CC3EA;
+    border-style: solid;
+    transition: 0.6s;
+}
+
+.logo-container {
+    left: 30vw;
+    top: 5vh;
+    min-width: 40vw;
+    min-height: 30vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 3;
+    text-align: center;
+}
+
+.login-container:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-color: white;
+
+}
+
+
+
+
+

@@ -1,0 +1,6 @@
+.avatar-config {
+    display: flex !important;
+    align-items: center !important;
+    margin-right: 10px;
+    background-color:  transparent;
+}
